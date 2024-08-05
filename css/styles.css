@@ -204,11 +204,28 @@ font-size: 0.8rem;
     line-height: 1.6;
 }
 
-@media screen and (min-width:760px){
-    .card--project{
-        display: grid;
-        grid-template-columns: min-content 1fr;
-        grid-column: 1 / -1;
+.card--project{
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-column: 1 / -1;
+}
+
+@media screen and (max-width:1000px){
+    .container_card{
+        height: auto;
+        width: auto;
+        padding: auto;
+        margin-bottom: 10px;
+    }
+    .card__image-container{
+        padding-right: 10px;
+    }
+    .project{
+        padding-left: 10px;
+    }
+    .button{
+        width: 10px;
+        height: 30px;
     }
 }
 
