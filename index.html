@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/images/luna.png" alt="icon theme" class="toggle-theme__icon">
+          <span class="typeBright toggle-theme__text" id="toggle-text">Dark Mode</span>
+          <!--<span id="toggle-text" class="toggle-theme__text">Dark Mode</span>-->
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img class="flags__img" src="/assets/icons/es.svg" alt="">
+        </div>
+        <div class="flags__item" data-language="cat">
+          <img class="flags__img" src="/assets/icons/cat.svg" alt="">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img class="flags__img" src="/assets/icons/gb.svg" alt="">
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214,84%,56%)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(150,84%,56%)" class="colors__item colors__item--green"></div>
+        <div data-color="hsl(276,84%,56%)" class="colors__item colors__item--purple"></div>
+        <div data-color="hsl(46,84%,56%)" class="colors__item colors__item--orange"></div>
+      </div>
+      
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/imagePropia.jpg" alt="">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Antonio Lozano</h2>
+            <h3 data-section="profile" data-value="student">Estudiante de Ingeniería Informática</h3>
+            <p class="card__subtitle" data-section="profile" data-value="date-birth"><b>Fecha de nacimiento: </b>29/08/2003</p>
+            <p class="card__subtitle" data-section="profile" data-value="spanish-nationality"><b>Nacionalidad: </b>Española</p>
+            <p class="card__subtitle" data-section="profile" data-value="gender"><b>Género: </b>Masculino</p>
+          </div>
+          <div class="car__body">
+            <h2 data-section="profile" data-value="contact">Contacto</h2>
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:dorian@gmail.com">
+                antoniolozanolarrubia@gmail.com
+              </a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:xxx">
+                +34 - 644 95 97 36
+              </a>
+            </div>
+            <br>
+            <h2 data-section="profile" data-value="about">Sobre Mí:</h2>
+            <div class="card__text" data-section="profile" data-value="description">
+              Estudiante de tercero de Ingeniería Informática de la mención de Tecnologías de la Información de la UAB. <br> Poseo un gran interés en seguir aprendiendo y creciendo tanto a nivel académico como profesional, por lo que estoy en búsqueda de una oportunidad de prácticas.
+            </div>
+            <h2 data-section="profile" data-value="competencies">Competencias:</h2>
+            <ul class="card__text">
+              <li data-section="profile" data-value="competencies-1">Trabajo en equipo</li>
+              <li data-section="profile" data-value="competencies-2">Responsable</li>
+              <li data-section="profile" data-value="competencies-3">Trabajador</li>
+              <li data-section="profile" data-value="competencies-4">Comprometido</li>
+            </ul>
+            <h2 data-section="profile" data-value="moreInfo">Más Información:</h2>
+            <ul class="card__text">
+              <li data-section="profile" data-value="moreInfo-1">Carnet de conducir</li>
+              <li data-section="profile" data-value="moreInfo-2">Vehículo propio</li>
+              <li data-section="profile" data-value="moreInfo-3">Disponibilidad parcial</li>
+            </ul>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title" data-section="experience" data-value="experiences">Experiencia</h2>
+          <div class="experience">
+          <img src="assets/images/MAFAC.jpg" alt="" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="date-experience-1">
+              JUN2019 - AGO2023
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="job-name-1">Carpintero de aluminio</h3>
+            
+          </div>
+        </div>
+        
+
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card_title" data-section="hobbies" data-value="hobbies">Aficiones</h2>
+          <h3 class="hobbie__title" data-section="hobbies" data-value="sport">Deporte</h3>
+          <div class="card__image-container">
+            <img src="assets/images/deporte.jpg" alt="Running">
+          </div>
+          
+          <p class="card__text" data-section="hobbies" data-value="sport-description">Practico una gran variedad de deportes, lo que me enseñan trabajo en equipo, disciplina y manejo del estrés. Este hobby me mantiene activo y mejora mi bienestar mental, además de fortalecer mi capacidad para enfrentar desafíos.
+          </p>
+
+          <h3 class="hobbie__title" data-section="hobbies" data-value="travel">Viajar</h3>
+          <div class="card__image-container">
+            <img src="assets/images/viajar.jpeg" alt="Traveling">
+          </div>
+          
+          <p class="card__text" data-section="hobbies" data-value="travel-description">Disfruto viajar, lo que me ha permitido desarrollar una mente abierta y adaptable. Esta afición me ha enseñado a enfrentar y resolver problemas inesperados, mejorar mis habilidades de comunicación intercultural y apreciar la diversidad cultural.
+          </p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title" data-section="programming-languages" data-value="programming-languages">Lenguajes de Programación</h2> 
+          <small data-section="programming-languages" data-value="programming-languages-knowledge">Conocimientos que considero tener</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">10</span>
+          </div>
+          
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech">CSS</p>
+                <div class="skills__bar skills__bar--50"></div>
+                </div>
+                <div class="skills__item">
+                  <p class="skills__tech">JAVASCRIPT</p>
+                  <div class="skills__bar skills__bar--60"></div>
+                  </div>
+                  <div class="skills__item">
+                    <p class="skills__tech">C++</p>
+                    <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                    <div class="skills__item">
+                      <p class="skills__tech">JAVA</p>
+                      <div class="skills__bar skills__bar--60"></div>
+                      </div>
+                      <div class="skills__item">
+                        <p class="skills__tech">BASH</p>
+                        <div class="skills__bar skills__bar--50"></div>
+                        </div>
+                        <div class="skills__item">
+                          <p class="skills__tech">PYTHON</p>
+                          <div class="skills__bar skills__bar--50"></div>
+                          </div>
+                          <div class="skills__item">
+                            <p class="skills__tech">DART</p>
+                            <div class="skills__bar skills__bar--30"></div>
+                            </div>
+                            <div class="skills__item">
+                              <p class="skills__tech">SQL</p>
+                              <div class="skills__bar skills__bar--60"></div>
+                              </div>
+                              <div class="skills__item">
+                                <p class="skills__tech">RSTUDIO</p>
+                                <div class="skills__bar skills__bar--20"></div>
+                                </div>
+                                <div class="skills__item">
+                                  <p class="skills__tech">NODE JS</p>
+                                  <div class="skills__bar skills__bar--70"></div>
+                                  </div>
+                                  <div class="skills__item">
+                                    <p class="skills__tech">VUE</p>
+                                    <div class="skills__bar skills__bar--70"></div>
+                                    </div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title" data-section="languages" data-value="languages">Idiomas</h2>
+          <div class="skills__header">
+            <span class="skills__start-level">A1</span>
+            <span class="skills__start-level">C2</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech" data-section="languages" data-value="spanish">Castellano</p>
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+              <div class="skills__item">
+                <p class="skills__tech" data-section="languages" data-value="catalan">Catalán</p>
+                <div class="skills__bar skills__bar--90"></div>
+                </div>
+                <div class="skills__item">
+                  <p class="skills__tech" data-section="languages" data-value="english">Inglés</p>
+                  <div class="skills__bar skills__bar--70"></div>
+                  </div>
+                  <div class="skills__item">
+                    <p class="skills__tech" data-section="languages" data-value="french">Francés</p>
+                    <div class="skills__bar skills__bar--20"></div>
+                    </div>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/Flutter.png" alt="Landing page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Java</span>
+              <span class="project__tag">#Dart</span>
+            </div>
+          
+          <h2 class="card__title">Flutter Project</h2>
+          <p class="card__text">Proyecto en el que se ha creado a través de Flutter una interfaz de una aplicación, 
+            la cual controla los accesos de los distintos usuarios de un edificio</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary" id="flutter">Demo</a>
+            <a href="#" class="button button--ghost" id="flutter">Code FrontEnd</a>
+            <a href="#" class="button button--ghost" id="flutter">Code BackEnd</a>
+          </div>
+        </div>
+        </article>
+        <article class="card card--project" id="maps">
+          <div class="card__image-container">
+            <img src="assets/images/Maps.png" alt="Landing page" class="card__image" id="img_maps">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#C++</span>
+            </div>        
+          <h2 class="card__title">Maps</h2>
+          <p class="card__text">Proyecto donde se ha programado el backend cuyo objetivo es simular un maps de unos determinados lugares<br/>
+            Las funcionalidades pueden ser:
+            <ul>
+              <li>Ver puntos de interés</li>
+              <li>Camíno más corto de un punto origen a uno destino</li>
+              <li>Borrar todo</li>
+            </ul>
+          </p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="#" class="button button--ghost">Code</a>
+          </div>
+        </div>
+        </article>
+        <article class="card card--project" id="maps">
+          <div class="card__image-container">
+            <img src="assets/images/MAFAC_programa.jpg" alt="Landing page" class="card__image" id="img_maps">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+            </div>        
+          <h2 class="card__title">Cálculo cortes</h2>
+          <p class="card__text">En este proyecto, se ha construido una página web para MAFAC en el que la funcionalidad es proporcionar que 
+            el usuario añada unas medidas de una obra, y esta sea capaz de responderle con el número exacto de barras que la empresa necesitará.
+          </p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="#" class="button button--ghost">Code</a>
+          </div>
+        </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

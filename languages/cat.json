@@ -1,0 +1,46 @@
+{
+    "profile": {
+        "student": "Estudiant d'Enginyeria Informàtica",
+        "date-birth": "<b>Data de naixement: </b>29/08/2003",
+        "spanish-nationality": "<b>Nacionalitat: </b>Espanyola",
+        "gender": "<b>Gènere: </b>Masculí",
+        "contact": "Contacte",
+        "description": "Estudiant de tercer d'Enginyeria Informàtica de la menció de Tecnologies de la Informació de la UAB. <br> Tinc un gran interès en seguir aprenent i creixent tant a nivell acadèmic com professional, per la qual cosa estic en cerca d'una oportunitat de pràctiques.",
+        "about": "Sobre Mi:",
+        "competencies": "Competències:",
+        "competencies-1": "Treball en equip",
+        "competencies-2": "Responsable",
+        "competencies-3": "Treballador",
+        "competencies-4": "Compromès",
+        "moreInfo": "Més Informació:",
+        "moreInfo-1": "Carnet de conduir",
+        "moreInfo-2": "Vehicle propi",
+        "moreInfo-3": "Disponibilitat parcial"
+    },
+    "experience": {
+        "experiences": "Experiència",
+        "date-experience-1": "JUN2019 - AGO2023",
+        "job-name-1": "Fuster d'alumini"
+    },
+    "hobbies": {
+        "hobbies": "Aficions",
+        "sport": "Esport",
+        "sport-description": "Practico una gran varietat d'esports, cosa que m'ensenyen treball en equip, disciplina i gestió de l'estrès. Aquest hobby em manté actiu i millora el meu benestar mental, a més de reforçar la meva capacitat per afrontar desafiaments.",
+        "travel": "Viatjar",
+        "travel-description": "Gaudeixo viatjant, cosa que m'ha permès desenvolupar una ment oberta i adaptable. Aquesta afició m'ha ensenyat a enfrontar i resoldre problemes inesperats, millorar les meves habilitats de comunicació intercultural i apreciar la diversitat cultural."
+    },
+    "programming-languages": {
+        "programming-languages": "Llenguatges de Programació",
+        "programming-languages-knowledge": "Coneixements que considero tenir"
+    },
+    "languages": {
+        "languages": "Idiomes",
+        "spanish": "Castellà",
+        "catalan": "Català",
+        "english": "Anglès",
+        "french": "Francès"
+    },
+    "projects": {
+        "first-project-title": "Landing page"
+    }
+}

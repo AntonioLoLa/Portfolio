@@ -1,0 +1,47 @@
+{
+    "profile":{
+        "student":"Estudiante de Ingeniería Informática",
+        "date-birth": "<b>Fecha de nacimiento: </b>29/08/2003",
+        "spanish-nationality": "<b>Nacionalidad: </b>Española",
+        "gender":"<b>Género: </b>Masculino",
+        "contact": "Contacto",
+        "description": "Estudiante de tercero de Ingeniería Informática de la mención de Tecnologías de la Información de la UAB. <br> Poseo un gran interés en seguir aprendiendo y creciendo tanto a nivel académico como profesional, por lo que estoy en búsqueda de una oportunidad de prácticas.",
+        "about": "Sobre Mí:",
+        "competencies": "Competencias:",
+        "competencies-1":"Trabajo en equipo",
+        "competencies-2":"Responsable",
+        "competencies-3":"Trabajador",
+        "competencies-4":"Comprometido",
+        "moreInfo": "Más Información:",
+        "moreInfo-1":"Carnet de conducir",
+        "moreInfo-2":"Vehículo propio",
+        "moreInfo-3":"Disponibilidad parcial"
+
+    },
+    "experience":{
+        "experiences": "Experiencia",
+        "date-experience-1": "JUN2019 - AGO2023",
+        "job-name-1":"Carpintero de aluminio"
+    },
+    "hobbies":{
+        "hobbies": "Aficiones",
+        "sport": "Deport",
+        "sport-description": "Practico una gran variedad de deportes, lo que me enseñan trabajo en equipo, disciplina y manejo del estrés. Este hobby me mantiene activo y mejora mi bienestar mental, además de fortalecer mi capacidad para enfrentar desafíos.",
+        "travel": "Viajar",
+        "travel-description": "Disfruto viajar, lo que me ha permitido desarrollar una mente abierta y adaptable. Esta afición me ha enseñado a enfrentar y resolver problemas inesperados, mejorar mis habilidades de comunicación intercultural y apreciar la diversidad cultural."   
+    },
+    "programming-languages":{
+        "programming-languages":"Lenguajes de Programación",
+        "programming-languages-knowledge":"Conocimientos que considero tener"
+    },
+    "languages":{
+        "languages":"Idiomas",
+        "spanish":"Castellano",
+        "catalan":"Catalán",
+        "english":"Inglés",
+        "french":"Francés"
+    },
+    "projects":{
+        "first-project-title": "Landing page"
+    }
+}

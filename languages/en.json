@@ -1,0 +1,46 @@
+{
+    "profile":{
+        "student":"Computer Engineering Student",
+        "date-birth": "<b>Date of birth: </b>29/08/2003",
+        "spanish-nationality": "<b>Nationality: </b>Spanish",
+        "gender":"<b>Gender: </b>Male",
+        "contact": "Contact",
+        "description": "Third-year student of Computer Engineering with a major in Information Technology at the UAB. <br> I have a great interest in continuing to learn and grow both academically and professionally, which is why I am looking for an internship opportunity.",
+        "about": "About Me:",
+        "competencies": "Competencies:",
+        "competencies-1":"Teamwork",
+        "competencies-2":"Responsible",
+        "competencies-3":"Worker",
+        "competencies-4":"Engaged",
+        "moreInfo": "More Information:",
+        "moreInfo-1":"Driving license",
+        "moreInfo-2":"Own vehicle",
+        "moreInfo-3":"Partial availability"
+    },
+    "experience":{
+        "experiences": "Experience",
+        "date-experience-1": "JUN2019 - AUG2023",
+        "job-name-1":"Aluminium joiner"
+    },
+    "hobbies":{
+        "hobbies": "Hobbies",
+        "sport": "Sport",
+        "sport-description": "I play a wide variety of sports, which teach me teamwork, discipline and stress management. This hobby keeps me active and improves my mental well-being, as well as strengthening my ability to face challenges.",
+        "travel": "Travel",
+        "travel-description": "I enjoy traveling, which has allowed me to develop an open and adaptable mind. This hobby has taught me to face and solve unexpected problems, improve my intercultural communication skills, and appreciate cultural diversity." 
+    },
+    "programming-languages":{
+        "programming-languages":"Programming Languages",
+        "programming-languages-knowledge":"Knowledge that I consider I have"
+    },
+    "languages":{
+        "languages":"Languages",
+        "spanish":"Castilian",
+        "catalan":"Catalan",
+        "english":"English",
+        "french":"French"
+    },
+    "projects":{
+        "first-project-title": "Landing page"
+    }
+}
