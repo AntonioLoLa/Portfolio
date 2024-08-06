@@ -22,6 +22,8 @@ img{
     display: block;
 }
 
+
+
 body{
     margin:0;
     background-color: var(--bg-color);
@@ -150,22 +152,13 @@ font-size: 0.8rem;
     gap:0.5em;
 }
 
-@media screen and (min-width:720px) {
-    .main{
-        grid-template-columns: min-content 1fr;
-    }    
-}
+
+
+
 
 .column{
     display: grid;
     gap:0.5em;
-}
-@media screen and (min-width:720px) {
-    .column--right{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,min-content);
-        align-items: start;
-    }    
 }
 
 
@@ -209,26 +202,6 @@ font-size: 0.8rem;
     grid-template-columns: min-content 1fr;
     grid-column: 1 / -1;
 }
-
-@media screen and (max-width:1000px){
-    .container_card{
-        height: auto;
-        width: auto;
-        padding: auto;
-        margin-bottom: 10px;
-    }
-    .card__image-container{
-        padding-right: 10px;
-    }
-    .project{
-        padding-left: 10px;
-    }
-    .button{
-        width: 10px;
-        height: 30px;
-    }
-}
-
 
 
 .skills{
@@ -341,11 +314,7 @@ font-size: 0.8rem;
     position: relative;
 }
 
-@media screen and (min-width:760px){
-    .project{
-        margin-left: 2em;
-    }
-}
+
 
 .project__tags{
     display: flex;
@@ -355,12 +324,6 @@ font-size: 0.8rem;
     width: 275px;
 }
 
-@media screen and (min-width:760px){
-    .project__tags{
-        font-size: 0.8rem;
-        width: 325px;
-    }
-}
 
 .project__tag{
     padding:.4em .8em;
@@ -375,12 +338,7 @@ font-size: 0.8rem;
     justify-content: space-between;
     width: 225px;
 }
-@media screen and (min-width:760px){
-    .buttons{
-        position: absolute;
-        bottom: 1em;
-    }
-}
+
 .button{
     width: 100px;
     line-height: 2.5;
@@ -388,6 +346,10 @@ font-size: 0.8rem;
     border-radius: var(--border-radius);
     transition: var(--transition);
     
+}
+.button:hover{
+    background-color: var(--primary-color);
+    color:var(--text-color);
 }
 
 .button--primary{
@@ -408,6 +370,70 @@ font-size: 0.8rem;
 .no-margin{
     margin:0;
 }
+
+
+
+@media screen and (min-width:1185px){
+    .main{
+        grid-template-columns: min-content 1fr;
+    }
+    #pokemonIMG{
+        height: 200px;
+        width: 100%;
+    }
+    .column--right{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,min-content);
+        align-items: start;
+    }  
+    .project{
+        margin-left: 2em;
+    }
+    .project__tags{
+        font-size: 0.8rem;
+        width: 325px;
+    }
+    .buttons{
+        position: absolute;
+        bottom: 1em;
+    }
+    #buttonMAFAC{
+        bottom:1%;
+    }
+}
+
+@media screen and (max-width:1185px) {
+    #imgPropia{
+        width: 40%;
+        height: 60%;
+    }
+    .header{
+        width: 100%;
+    }
+
+    .container_card{
+        height: auto;
+        width: auto;
+        padding: auto;
+        margin-bottom: 10px;
+    }
+    .card__image-container{
+        padding-right: 10px;
+    }
+    .project{
+        padding-left: 10px;
+    }
+    .button{
+        width: 100px;
+        height: 30px;
+        margin:5px;
+    }
+    #insideButton{
+        padding-bottom: 15%;
+    }
+    
+}
+
 
 @keyframes skills-bar-fill {
     to{
