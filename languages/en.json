@@ -40,7 +40,23 @@
         "english":"English",
         "french":"French"
     },
-    "projects":{
-        "first-project-title": "Landing page"
+    "projects": {
+        "pokemon": "POKEMON GAME",
+        "pokemon-description": "Simulation of the Pokemon game with its respective functionalities.",
+        "code": "Code",
+        "flutter": "FLUTTER PROJECT",
+        "flutter-description": "Implementation of building access control using Flutter for the frontend and Java for the backend.",
+        "flutter-front": "FrontEnd Code",
+        "flutter-back": "BackEnd Code",
+        "maps-description": "Simulates a map of specific locations developed in C++.",
+        "maps-description-function": "The functionalities may include:",
+        "maps-description-1": "View points of interest",
+        "maps-description-2": "Shortest path from a starting point to a destination",
+        "maps-description-3": "Clear all",
+        "page": "E-COMMERCE WEBSITE",
+        "page-description": "Design and development of an e-commerce website for purchasing operations.",
+        "mafac": "CUTTING PROGRAM",
+        "mafac-description": "Development of a website for MAFAC that calculates the exact number of bars needed for a construction project based on the measurements provided by the user."
     }
+
 }
