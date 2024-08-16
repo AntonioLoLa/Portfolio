@@ -133,8 +133,8 @@ font-size: 0.8rem;
 .colors__item--green{
     --primary-color:hsl(150,84%,56%);
 }
-.colors__item--purple{
-    --primary-color:hsl(276,84%,56%);
+.colors__item--red{
+    --primary-color:hsl(0, 78%, 63%); 
 }
 .colors__item--orange{
     --primary-color:hsl(46,84%,56%);
@@ -166,6 +166,8 @@ font-size: 0.8rem;
     padding: 1em;
     background-color: var(--bg-card-color);
     border-radius: var(--border-radius);
+    
+    
 }
 
 .card__image-container{
@@ -201,6 +203,8 @@ font-size: 0.8rem;
     display: grid;
     grid-template-columns: min-content 1fr;
     grid-column: 1 / -1;
+    grid-template-areas: 'foto contenido';
+    
 }
 
 
@@ -373,6 +377,8 @@ font-size: 0.8rem;
 
 
 
+
+
 @media screen and (min-width:1185px){
     .main{
         grid-template-columns: min-content 1fr;
@@ -383,7 +389,7 @@ font-size: 0.8rem;
     }
     .column--right{
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,min-content);
+        grid-template-rows: repeat(5,min-content);
         align-items: start;
     }  
     .project{
@@ -397,9 +403,16 @@ font-size: 0.8rem;
         position: absolute;
         bottom: 1em;
     }
-    #buttonMAFAC{
-        bottom:1%;
+
+    #container_card {
+        height: auto;
+        padding-bottom: 70px; /* Agrega 30px al final del contenedor */
     }
+    .button-bug{
+        bottom:-20%;
+    }
+    
+    
 }
 
 @media screen and (max-width:1185px) {
@@ -410,15 +423,16 @@ font-size: 0.8rem;
     .header{
         width: 100%;
     }
-
-    .container_card{
-        height: auto;
-        width: auto;
-        padding: auto;
-        margin-bottom: 10px;
+    .card{
+        width:100%;
     }
+    
+
+    
+    
     .card__image-container{
         padding-right: 10px;
+        /*min-width: 200px;*/
     }
     .project{
         padding-left: 10px;
@@ -431,9 +445,32 @@ font-size: 0.8rem;
     #insideButton{
         padding-bottom: 15%;
     }
+    #img-viaje{
+        width: 330px;
+        height : 150px;
+    }
+ 
+   
+    
+    
     
 }
 
+@media screen and (max-width:700px) {
+   
+ 
+    .card--resposive{
+        display: grid;
+        
+        row-gap: 5px;
+        grid-template-areas:
+        'foto'
+        'contenido';
+    }
+    
+    
+    
+}
 
 @keyframes skills-bar-fill {
     to{
@@ -442,9 +479,7 @@ font-size: 0.8rem;
     
 }
 
-#img_maps{
-    height: 200px;
-}
+
 
 #flutter{
     display: flex;
@@ -457,6 +492,3 @@ font-size: 0.8rem;
     line-height: 1
 }
 
-#maps{
-    height: 330px;
-}
